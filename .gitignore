@@ -1,0 +1,45 @@
+# Environment & secrets
+.env
+.env.*
+*.pem
+*_key.json
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & output
+*.log
+logs/
+output/
+*.out
+
+# Claude / API artifacts
+responses/
+cache/
