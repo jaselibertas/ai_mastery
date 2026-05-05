@@ -1,0 +1,11 @@
+{
+  "name": "ai_mastery",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Anthropic API key",
+      "documentationUrl": "https://console.anthropic.com/settings/keys"
+    }
+  }
+}
